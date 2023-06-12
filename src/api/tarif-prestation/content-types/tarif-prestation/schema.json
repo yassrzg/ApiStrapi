@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tarif_prestations",
+  "info": {
+    "singularName": "tarif-prestation",
+    "pluralName": "tarif-prestations",
+    "displayName": "tarifPrestation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tarif": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

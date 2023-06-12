@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photos",
+  "info": {
+    "singularName": "photo",
+    "pluralName": "photos",
+    "displayName": "Photos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "ImgPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Filtre": {
+      "type": "enumeration",
+      "enum": [
+        "Mariage",
+        "Grossesse",
+        "Bébé",
+        "Famille",
+        "Baptême",
+        "Couple"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

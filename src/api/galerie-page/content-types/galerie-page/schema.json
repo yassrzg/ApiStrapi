@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "galerie_pages",
+  "info": {
+    "singularName": "galerie-page",
+    "pluralName": "galerie-pages",
+    "displayName": "galerie-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Galerie": {
+      "type": "string"
+    }
+  }
+}
